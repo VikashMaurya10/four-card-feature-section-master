@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+// ### Primary
+
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+// ### Neutral
+
+$Very-Dark-Blue: hsl(234, 12%, 34%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Body-Grayish-Blue: hsl(229, 6%, 66%, 26%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+$card-shadow: hsla(234, 12%, 34%, 0.4);
+
+// Font Size & weight
+
+$fs-lg: 2rem; //32px
+$fs-md: 1.5625rem; //25px
+$fs-sm: 0.9rem; //15px
+$fw-lg: 600;
+$fw-md: 400;
+$fw-sm: 200;
+
+*::after,
+*,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: $Body-Grayish-Blue;
+}
+
+h1,
+h2,
+h3 {
+    color: $Very-Dark-Blue;
+    font-weight: $fw-lg;
+}
+
+p {
+    color: $Grayish-Blue;
+    font-size: $fs-sm;
+    font-weight: $fw-md;
+}

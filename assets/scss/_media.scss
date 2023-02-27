@@ -1,0 +1,62 @@
+@media (min-width:712px) and (max-width:1000px) {
+    main {
+        .card-container {
+            .cards {
+                flex-wrap: wrap;
+                flex-direction: row;
+
+                &__card2 {
+                    order: 3;
+                    flex-direction: row;
+                }
+
+                &__card3 {
+                    order: 2;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:540px) {
+    main {
+        .card-container {
+
+            >p {
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1000px) {
+    main {
+        .card-container {
+            padding: 2rem;
+
+            h1 {
+                font-size: $fs-lg;
+            }
+
+            h2 {
+                font-size: $fs-md;
+            }
+
+            .cards {
+                flex-direction: row;
+                gap: 1.5rem;
+
+                .card {
+                    padding: 2rem; //32px
+
+                    img {
+                        bottom: 2rem; //32px
+                        right: 2rem; //32px
+                    }
+                }
+            }
+        }
+    }
+}
