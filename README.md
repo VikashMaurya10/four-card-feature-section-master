@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/VikashMaurya10/four-card-feature-section-master)
-- Live Site URL: (https://vikashmaurya10.github.io/four-card-feature-section-master/)
+- Solution URL:[github.com/VikashMaurya] (https://github.com/VikashMaurya10/four-card-feature-section-master)
+- Live Site URL:[view🌐] (https://vikashmaurya10.github.io/four-card-feature-section-master/)
 
 ## My process
 
@@ -73,5 +73,5 @@ main {
 
 ## Author
 
-- Frontend Mentor - [@Vikashmauray10](https://www.frontendmentor.io/profile/VikashMaurya10)
+- Frontend Mentor - [@Vikashmaurya](https://www.frontendmentor.io/profile/VikashMaurya10)
 - LinkedIn - [@in-vikashmaurya](https://www.linkedin.com/in/in-vikashmaurya)
